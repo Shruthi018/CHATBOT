@@ -1,0 +1,402 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": [
+            "hi, how are you doing?",
+            "What's going on?",
+            "How are you doing today?",
+            "How's it going?",
+            "Everything's been good with you?"
+        ],
+        "responses": [
+            "I'm fine. What's going on with you?",
+            "Not much.",
+            "i'm fine. how about yourself?",
+            "What's going on with you?",
+            "I'm doing great. What about you?",
+            "I haven't been better. How about yourself?",
+            "I started school recently."
+        ]
+    },
+    {
+        "tag": "party_invitation",
+        "patterns": [
+            "I'm having a party this Friday.",
+            "This Friday, I'm throwing a party.",
+            "I'm having a party next Saturday.",
+            "I'm throwing a party on Friday.",
+            "I'm having a party on Friday."
+        ],
+        "responses": [
+            "I had no idea.",
+            "I didn't hear anything about it.",
+            "Oh really? I didn't know that.",
+            "I'm sorry, I can't.",
+            "I don't think so."
+        ]
+    },
+    {
+        "tag": "party_invitation_details",
+        "patterns": [
+            "Is that right?",
+            "Are you serious?",
+            "Can you go?",
+            "Are you going to come?",
+            "Is there a reason why?"
+        ],
+        "responses": [
+            "I'll go.",
+            "No doubt.",
+            "I wish you luck.",
+            "I'll definitely try to make it the next time.",
+            "Yeah, sorry."
+        ]
+    },
+    {
+        "tag": "back_pain",
+        "patterns": [
+            "My back is killing me.",
+            "What did you do?",
+            "I injured my back one time just by sneezing.",
+            "You should see a doctor.",
+            "My doctor said I need surgery."
+        ],
+        "responses": [
+            "That's it?",
+            "You should see a doctor.",
+            "So?",
+            "I have no insurance.",
+            "Maybe a back rub would help."
+        ]
+    },
+    {
+        "tag": "smoking",
+        "patterns": [
+            "My brother smokes three packs a day.",
+            "Three packs of what?",
+            "When he is almost finished with one cigarette, he uses it to light another.",
+            "He's been a chain smoker for 30 years.",
+            "Can he still breathe?"
+        ],
+        "responses": [
+            "Cigarettes, of course.",
+            "How can he do that?",
+            "He's a chain smoker.",
+            "That's unbelievable.",
+            "He can, but the people around him can't."
+        ]
+    },
+    {
+        "tag": "brushing_teeth",
+        "patterns": [
+            "I hate brushing my teeth.",
+            "It's such a chore.",
+            "Brush, brush. Spit, spit.",
+            "Why do they call it the good old days?",
+            "Who invented flossing?"
+        ],
+        "responses": [
+            "It's such a chore.",
+            "Brush, brush. Spit, spit.",
+            "They brushed with their fingers.",
+            "They also ate with their fingers!",
+            "Maybe because they didn't have to brush and floss."
+        ]
+    },
+    {
+        "tag": "hiking",
+        "patterns": [
+            "Let's stop for a while. I need a break and some water.",
+            "This trail is hard to climb.",
+            "All we've seen so far is a couple of lizards.",
+            "We're hiking to lose weight, not to see goats and bears.",
+            "I bet I've lost a couple of pounds already."
+        ],
+        "responses": [
+            "Especially on a hot day like this.",
+            "I can't believe we haven't seen any animals.",
+            "Thank goodness! I don't want to see any wild animals.",
+            "All you've lost is some sweat.",
+            "All you've lost is some sweat."
+        ]
+    },
+    {
+        "tag": "pimples",
+        "patterns": [
+            "Oh no, another pimple on my face.",
+            "Pimples suck.",
+            "It seems like I get a new pimple almost every day.",
+            "Maybe it's something in your diet.",
+            "Do pimples run in your family?"
+        ],
+        "responses": [
+            "It's such a chore.",
+            "Maybe it's something in your diet.",
+            "You might be right.",
+            "No, I eat the same things day after day.",
+            "Not that I've noticed."
+        ]
+    },
+    {
+        "tag": "belief_and_media",
+        "patterns": [
+            "Do you believe everything you hear?",
+            "You can't believe what you hear on TV or radio.",
+            "You can't believe what you read in the newspapers.",
+            "Everyone tells you a different story about the same thing.",
+            "And the government will give you a fourth story."
+        ],
+        "responses": [
+            "I don't believe anything I don't see with my own eyes.",
+            "You can't believe what you hear on TV or radio.",
+            "Three different people will give you three different stories.",
+            "Yes, like the government says not to worry about the swine flu.",
+            "But the swine flu just killed 20 people in Mexico."
+        ]
+    },
+    {
+        "tag": "nose_picking",
+        "patterns": [
+            "Don't pick your nose.",
+            "What were you doing?",
+            "I think I know the difference between picking and scratching.",
+            "Okay, maybe I was picking it a little bit.",
+            "I didn't have a tissue."
+        ],
+        "responses": [
+            "I wasn't picking my nose.",
+            "I was scratching my nose.",
+            "Use a tissue next time.",
+            "Then wait until you find a tissue.",
+            "I didn't have a tissue."
+        ]
+    },
+        {
+            "tag": "family_behavior",
+            "patterns": [
+                "I saw Dad wipe his nose on his sleeve yesterday.",
+                "I bet Dad did it all the time when he was my age.",
+                "Your daddy was a good little boy.",
+                "How do you know? Were you his mommy, too?"
+            ],
+            "responses": [
+                "I will talk to your father about that.",
+                "Your daddy was a good little boy.",
+                "How do you know? Were you his mommy, too?"
+            ]
+        },
+        {
+            "tag": "marriage_worries",
+            "patterns": [
+                "I'm worried.",
+                "I'm getting married.",
+                "Marriage is a lot of responsibility.",
+                "Are you going to start a family?",
+                "We want to have a little boy and a little girl."
+            ],
+            "responses": [
+                "You should be happy, not worried.",
+                "Yes, you have to take care of your wife.",
+                "And I have to take care of our children.",
+                "That sounds wonderful, except we can't afford it!"
+            ]
+        },
+        {
+            "tag": "art_and_artists",
+            "patterns": [
+                "I don't get art.",
+                "They're in a different world.",
+                "But it was full of pencils! How could he say it was empty?",
+                "Artists see things differently.",
+                "Did you ever see anything that Picasso painted?"
+            ],
+            "responses": [
+                "Or artists.",
+                "I saw a painting of a jar that was full of pencils.",
+                "The artist said the jar was both full and empty.",
+                "Artists see things differently.",
+                "Of course! He's world-famous."
+            ]
+        },
+        {
+            "tag": "purpose_of_life",
+            "patterns": [
+                "What's the point?",
+                "Of living.",
+                "We must be here for some reason.",
+                "Maybe we're here to have fun.",
+                "Then why aren't I having fun?"
+            ],
+            "responses": [
+                "The point of what?",
+                "Who knows? You live, and then you die.",
+                "Maybe we're here to have fun.",
+                "Stop thinking about what the point is. Just be patient. Fun doesn't come along every five minutes."
+            ]
+        },
+        {
+            "tag": "beer_and_cigarettes",
+            "patterns": [
+                "Beer is a powerful drug.",
+                "So are cigarettes.",
+                "When you die and go to heaven, they will offer you beer or cigarettes.",
+                "I could pick only one or the other?",
+                "Boy, that's a tough one."
+            ],
+            "responses": [
+                "So are cigarettes.",
+                "What do you mean?",
+                "Yes, nothing's perfect, not even in heaven.",
+                "Boy, that's a tough one."
+            ]
+        },
+        {
+            "tag": "pocket_hole",
+            "patterns": [
+                "My pants have a hole in the front pocket.",
+                "You shouldn't carry pens in your pocket.",
+                "Yesterday a pen fell through my pants onto my shoe.",
+                "Who carries a sharp knife in their pocket?",
+                "Criminals, of course."
+            ],
+            "responses": [
+                "You shouldn't carry pens in your pocket.",
+                "Lucky for you it wasn't a sharp knife.",
+                "Who carries a sharp knife in their pocket?",
+                "Criminals, of course."
+            ]
+        },
+        {
+            "tag": "remembering_jokes",
+            "patterns": [
+                "I can't remember jokes.",
+                "They go in one ear and out the other.",
+                "Who makes up all these jokes?",
+                "Who knows? But there must be a hundred new ones every day."
+            ],
+            "responses": [
+                "Neither can I.",
+                "Some of it is okay, I guess.",
+                "Artists see things differently.",
+                "Did you ever see anything that Picasso painted?"
+            ]
+        },
+        {
+            "tag": "smartness",
+            "patterns": [
+                "I'm not very smart.",
+                "I don't know. I think I'm average.",
+                "Did you ever take an IQ test?",
+                "I wish I was really smart.",
+                "Don't be ridiculous. If you're going to make a wish, wish that you were really rich or famous."
+            ],
+            "responses": [
+                "I don't know anyone who likes it.",
+                "Some of it is okay, I guess.",
+                "No one makes any money at it.",
+                "Did he get rich from his poetry?",
+                "Probably not."
+            ]
+        },
+        {
+            "tag": "earth_day",
+            "patterns": [
+                "Do you know what today is?",
+                "It's more than just a date.",
+                "It's a yearly reminder to take care of our planet."
+            ],
+            "responses": [
+                "Yes, it's April 22.",
+                "Is it your birthday or anniversary?",
+                "It's all over the news."
+            ]
+        },
+        {
+            "tag": "national_flag",
+            "patterns": [
+                "I don't like our flag.",
+                "What's the matter with it?",
+                "A flag should be pretty."
+            ],
+            "responses": [
+                "What's the matter with it?",
+                "Yes, a lot of flags have stripes."
+            ]
+        },
+        {
+            "tag": "death_arrangements",
+            "patterns": [
+                "What are you going to do about your death?",
+                "I mean, are you going to get buried or cremated?",
+                "Our ashes will be shaken into the ocean."
+            ],
+            "responses": [
+                "Well, mostly I'll try to avoid it.",
+                "My wife and I will be cremated."
+            ]
+        },
+        {
+            "tag": "carpet_cleaning",
+            "patterns": [
+                "Did you wipe your feet?",
+                "Then why is there mud on the carpet?",
+                "I don't like pretty women?",
+                "You don't like pretty women?",
+                "I don't like pretty women?"
+            ],
+            "responses": [
+                "Yes, of course, I wiped my feet.",
+                "I don't know. It's not my mud.",
+                "You don't like pretty women?",
+                "Of course. But not on our flag!"
+            ]
+        },
+        {
+            "tag": "mother's_day",
+            "patterns": [
+                "What are you getting for your mom?",
+                "Sunday is Mother's Day.",
+                "I thought it was next Sunday.",
+                "I'll get her a nice card.",
+                "Is that it?"
+            ],
+            "responses": [
+                "Sunday is Mother's Day.",
+                "Of course. It's all over the news."
+            ]
+        },
+        {
+            "tag": "poetry",
+            "patterns": [
+                "Poetry sucks.",
+                "I don't know anyone who likes it.",
+                "Some of it is okay, I guess.",
+                "Did you ever take an IQ test?",
+                "I wish I was really smart."
+            ],
+            "responses": [
+                "I don't know anyone who likes it.",
+                "Some of it is okay, I guess.",
+                "No one makes any money at it.",
+                "Did he get rich from his poetry?",
+                "Probably not."
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "I missed the TV news last night. What was on?",
+                "What's the weather going to be like this weekend?",
+                "What was the lead story on the news?",
+                "A bull chased a man in a supermarket."
+            ],
+            "responses": [
+                "Nothing that would pass as news.",
+                "I don't know. Whenever the weather comes on, I switch channels.",
+                "Some actress was in court for driving without a license.",
+                "Some actor married a woman young enough to be his daughter."
+            ]
+        }
+    ]
+
+}
