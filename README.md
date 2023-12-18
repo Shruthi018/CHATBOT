@@ -34,13 +34,13 @@ You can install the required packages using the following command:
    Open your web browser and navigate to http://localhost:5000 to use the chatbot through a simple web interface.
 
 # Files and Directories
-   chatbot.py: Script for running the chatbot in the console.
-   app.py: Flask web application for using the chatbot through a web interface.
-   intents.json: Dataset containing intents and responses.
-   chat_model/: Directory containing the saved trained model.
-   tokenizer.pickle: Pickle file for the fitted tokenizer.
-   label_encoder.pickle: Pickle file for the fitted label encoder.
-   requirements.txt: List of required Python packages.
+   chatbot.py: Script for running the chatbot in the console.  
+   app.py: Flask web application for using the chatbot through a web interface.  
+   intents.json: Dataset containing intents and responses.  
+   chat_model/: Directory containing the saved trained model.  
+   tokenizer.pickle: Pickle file for the fitted tokenizer.  
+   label_encoder.pickle: Pickle file for the fitted label encoder.  
+   requirements.txt: List of required Python packages.  
 
 # Training the Model
     If you want to retrain the model or make changes to the training process:
