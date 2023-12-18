@@ -10,27 +10,27 @@ This repository contains code for a simple chatbot implemented using TensorFlow 
 - [Training the Model](#training-the-model)
 
 ## Prerequisites
-tensorflow==2.3.1
-nltk==3.5
-colorama==0.4.3
-numpy==1.18.5
-scikit_learn==0.23.2
-Flask==1.1.2
+tensorflow==2.3.1   
+nltk==3.5   
+colorama==0.4.3   
+numpy==1.18.5  
+scikit_learn==0.23.2   
+Flask==1.1.2   
 
 
-You can install the required packages using the following command:
+You can install the required packages using the following command:  
        pip install -r requirements.txt
 
 # Usage
-   Clone the repository:
-          git clone https://github.com/Shruthi018/HAPPYBOT.git
-          cd HAPPYBOT
+   Clone the repository:  
+          git clone https://github.com/Shruthi018/HAPPYBOT.git  
+          cd HAPPYBOT  
 
-   Run the chatbot in the console:
-         python chat.py
-   You can start interacting with the chatbot by typing messages. Type "quit" to exit the chat.
-   Alternatively, deploy the chatbot as a Flask web application:
-       python app.py
+   Run the chatbot in the console:   
+         python chat.py   
+   You can start interacting with the chatbot by typing messages. Type "quit" to exit the chat.   
+   Alternatively, deploy the chatbot as a Flask web application:   
+       python app.py    
    Open your web browser and navigate to http://localhost:5000 to use the chatbot through a simple web interface.
 
 # Files and Directories
