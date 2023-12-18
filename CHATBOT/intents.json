@@ -1,402 +1,176 @@
 {"intents": [
     {
-        "tag": "greeting",
+        "tag": "medical_inquiry",
         "patterns": [
-            "hi, how are you doing?",
-            "What's going on?",
-            "How are you doing today?",
-            "How's it going?",
-            "Everything's been good with you?"
+            "I've been experiencing abdominal pain.",
+            "Can you provide information on heart health?",
+            "What are the symptoms of the common cold?",
+            "Tell me about the flu vaccine.",
+            "I have a skin rash. What could it be?",
+            "How can I lower my cholesterol levels?",
+            "What's the recommended daily water intake?"
         ],
         "responses": [
-            "I'm fine. What's going on with you?",
-            "Not much.",
-            "i'm fine. how about yourself?",
-            "What's going on with you?",
-            "I'm doing great. What about you?",
-            "I haven't been better. How about yourself?",
-            "I started school recently."
+            "I'm not a doctor, but I can offer general information. For personalized advice, please consult with a healthcare professional.",
+            "Heart health is crucial. Regular exercise and a balanced diet contribute to a healthy heart.",
+            "Common cold symptoms include sneezing, coughing, and a runny nose. Rest and hydration are often recommended.",
+            "The flu vaccine is designed to protect against influenza viruses. Consult your healthcare provider for vaccination advice.",
+            "Skin rashes can have various causes. It's best to see a dermatologist for a proper diagnosis and treatment plan.",
+            "To lower cholesterol, consider a diet rich in fruits, vegetables, and whole grains. Consult your doctor for personalized guidance.",
+            "The recommended daily water intake varies, but staying hydrated is important. Consult with a healthcare professional for personalized advice."
         ]
     },
     {
-        "tag": "party_invitation",
+        "tag": "appointment_request",
         "patterns": [
-            "I'm having a party this Friday.",
-            "This Friday, I'm throwing a party.",
-            "I'm having a party next Saturday.",
-            "I'm throwing a party on Friday.",
-            "I'm having a party on Friday."
+            "I need to schedule a doctor's appointment.",
+            "How can I book an appointment with a specialist?",
+            "Can you help me find a nearby clinic?",
+            "What's the process for scheduling a telehealth appointment?",
+            "I want to see a dentist. How do I go about it?",
+            "Do you have any recommendations for a good primary care physician?"
         ],
         "responses": [
-            "I had no idea.",
-            "I didn't hear anything about it.",
-            "Oh really? I didn't know that.",
-            "I'm sorry, I can't.",
-            "I don't think so."
+            "I can't schedule appointments, but you can contact local clinics or use online platforms to book appointments with healthcare providers.",
+            "To find a nearby clinic, you can use online directories or ask for recommendations from friends and family.",
+            "Telehealth appointments can be scheduled through healthcare provider websites or telemedicine platforms.",
+            "To see a dentist, you can contact dental clinics in your area and inquire about appointment availability.",
+            "For a primary care physician, consider asking for recommendations from your insurance provider or using online healthcare directories."
         ]
     },
     {
-        "tag": "party_invitation_details",
+        "tag": "medication_information",
         "patterns": [
-            "Is that right?",
-            "Are you serious?",
-            "Can you go?",
-            "Are you going to come?",
-            "Is there a reason why?"
+            "Tell me about common pain relievers.",
+            "What are the side effects of antibiotics?",
+            "How do I properly take my prescription medication?",
+            "Can you recommend an over-the-counter cold medicine?",
+            "I'm allergic to certain medications. What should I do?",
+            "What are the alternatives to painkillers?"
         ],
         "responses": [
-            "I'll go.",
-            "No doubt.",
-            "I wish you luck.",
-            "I'll definitely try to make it the next time.",
-            "Yeah, sorry."
+            "I can provide general information, but it's important to consult your pharmacist or healthcare provider for personalized advice on medications.",
+            "Common pain relievers include acetaminophen and ibuprofen. Always follow dosage instructions and consult a healthcare professional if you have concerns.",
+            "It's crucial to follow your prescription medication instructions precisely. If you have questions, consult with your prescribing doctor or pharmacist.",
+            "Over-the-counter cold medicines may include decongestants and antihistamines. Read labels carefully and consult with a pharmacist if you have specific health conditions.",
+            "If you have medication allergies, inform your healthcare provider and pharmacist. They can recommend alternatives that are safe for you.",
+            "Alternatives to painkillers may include physical therapy, acupuncture, or other non-pharmacological approaches. Consult with your healthcare provider for guidance."
         ]
     },
     {
-        "tag": "back_pain",
+        "tag": "emergency",
         "patterns": [
-            "My back is killing me.",
-            "What did you do?",
-            "I injured my back one time just by sneezing.",
-            "You should see a doctor.",
-            "My doctor said I need surgery."
+            "I need urgent medical help.",
+            "This is an emergency!",
+            "Can you call 911 for me?",
+            "I'm having chest pain!",
+            "Someone is unconscious!",
+            "What do I do in a medical emergency?"
         ],
         "responses": [
-            "That's it?",
-            "You should see a doctor.",
-            "So?",
-            "I have no insurance.",
-            "Maybe a back rub would help."
+            "I'm not equipped to handle emergencies. Call emergency services immediately by dialing 911 or your local emergency number.",
+            "For urgent medical assistance, please call 911 or visit the nearest emergency room.",
+            "I'm not a substitute for professional help. Dial 911 or go to the emergency room if it's an emergency.",
+            "Chest pain can be a serious symptom. Call 911 or seek emergency medical attention right away.",
+            "If someone is unconscious, call for emergency help immediately. Perform CPR if trained.",
+            "In a medical emergency, prioritize getting professional help. Call 911 for immediate assistance."
         ]
     },
     {
-        "tag": "smoking",
+        "tag": "mental_health",
         "patterns": [
-            "My brother smokes three packs a day.",
-            "Three packs of what?",
-            "When he is almost finished with one cigarette, he uses it to light another.",
-            "He's been a chain smoker for 30 years.",
-            "Can he still breathe?"
+            "I've been feeling really down lately.",
+            "Can you help with mental health advice?",
+            "Tell me about coping with stress.",
+            "I think I might have anxiety. What should I do?",
+            "Do you have tips for improving mental well-being?",
+            "I'm going through a tough time emotionally."
         ],
         "responses": [
-            "Cigarettes, of course.",
-            "How can he do that?",
-            "He's a chain smoker.",
-            "That's unbelievable.",
-            "He can, but the people around him can't."
+            "I'm not a mental health professional, but reaching out to a mental health professional or counselor can provide valuable support.",
+            "Mental health is important. Consider talking to a mental health professional for personalized guidance.",
+            "Coping with stress may involve relaxation techniques, mindfulness, and seeking support from friends and family.",
+            "If you suspect anxiety, consulting with a mental health professional for a proper diagnosis and treatment plan is recommended.",
+            "Improving mental well-being may include self-care practices, maintaining social connections, and seeking professional help when needed.",
+            "It's important to prioritize your emotional well-being. Consider reaching out to a mental health professional for support."
         ]
     },
     {
-        "tag": "brushing_teeth",
+        "tag": "diet_and_nutrition",
         "patterns": [
-            "I hate brushing my teeth.",
-            "It's such a chore.",
-            "Brush, brush. Spit, spit.",
-            "Why do they call it the good old days?",
-            "Who invented flossing?"
+            "Tell me about a healthy diet.",
+            "What foods can help boost my immune system?",
+            "I want to lose weight. Any tips?",
+            "Do you have advice for a vegetarian diet?",
+            "What are the benefits of staying hydrated?",
+            "Can you recommend a balanced meal plan?"
         ],
         "responses": [
-            "It's such a chore.",
-            "Brush, brush. Spit, spit.",
-            "They brushed with their fingers.",
-            "They also ate with their fingers!",
-            "Maybe because they didn't have to brush and floss."
+            "A healthy diet includes a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats.",
+            "Foods rich in vitamins and antioxidants, such as fruits and vegetables, can support immune health.",
+            "Losing weight often involves a combination of a balanced diet and regular physical activity. Consult a healthcare professional for personalized advice.",
+            "A vegetarian diet can be healthy with proper planning to ensure you get essential nutrients. Consider consulting with a nutritionist.",
+            "Staying hydrated is essential for overall health. It helps with digestion, temperature regulation, and nutrient transport.",
+            "For a balanced meal plan, consider incorporating a mix of vegetables, lean proteins, whole grains, and healthy fats. Consult with a nutritionist for personalized advice."
         ]
     },
     {
-        "tag": "hiking",
+        "tag": "exercise_and_fitness",
         "patterns": [
-            "Let's stop for a while. I need a break and some water.",
-            "This trail is hard to climb.",
-            "All we've seen so far is a couple of lizards.",
-            "We're hiking to lose weight, not to see goats and bears.",
-            "I bet I've lost a couple of pounds already."
+            "Tell me about effective workout routines.",
+            "How often should I exercise?",
+            "Can you recommend exercises for back pain relief?",
+            "What are the benefits of regular physical activity?",
+            "I want to start a fitness routine. Where do I begin?",
+            "Is there an ideal time to exercise during the day?"
         ],
         "responses": [
-            "Especially on a hot day like this.",
-            "I can't believe we haven't seen any animals.",
-            "Thank goodness! I don't want to see any wild animals.",
-            "All you've lost is some sweat.",
-            "All you've lost is some sweat."
+            "Effective workout routines vary, but a mix of cardiovascular, strength, and flexibility exercises is often recommended.",
+            "The frequency of exercise depends on your fitness goals. Consult with a fitness professional for personalized advice.",
+            "Exercises like gentle stretching and strengthening exercises may help with back pain. However, consult with a healthcare professional for proper guidance.",
+            "Regular physical activity has numerous benefits, including improved cardiovascular health, weight management, and mood enhancement.",
+            "Starting a fitness routine can begin with activities you enjoy, such as walking, swimming, or cycling. Gradually increase intensity over time.",
+            "The ideal time to exercise depends on personal preferences and schedule. The key is consistency. Find a time that works best for you and stick to it."
         ]
     },
     {
-        "tag": "pimples",
+        "tag": "pregnancy",
         "patterns": [
-            "Oh no, another pimple on my face.",
-            "Pimples suck.",
-            "It seems like I get a new pimple almost every day.",
-            "Maybe it's something in your diet.",
-            "Do pimples run in your family?"
+            "I just found out I'm pregnant. What should I do?",
+            "Tell me about prenatal care.",
+            "Are there specific foods to avoid during pregnancy?",
+            "What are common pregnancy symptoms?",
+            "Can I exercise during pregnancy?",
+            "I'm experiencing morning sickness. Any remedies?"
         ],
         "responses": [
-            "It's such a chore.",
-            "Maybe it's something in your diet.",
-            "You might be right.",
-            "No, I eat the same things day after day.",
-            "Not that I've noticed."
+            "Congratulations on your pregnancy! Schedule an appointment with an obstetrician for prenatal care and guidance.",
+            "Prenatal care is crucial for a healthy pregnancy. Regular check-ups, proper nutrition, and lifestyle adjustments may be recommended.",
+            "Avoiding certain foods, such as raw seafood and unpasteurized products, is advised during pregnancy. Consult with your healthcare provider for specific guidelines.",
+            "Common pregnancy symptoms include fatigue, nausea, and changes in appetite. However, experiences vary. Consult your healthcare provider with any concerns.",
+            "Exercise during pregnancy is generally safe, but it's essential to consult with a healthcare provider for personalized advice based on your health and pregnancy status.",
+            "For morning sickness, try eating small, frequent meals and staying hydrated. Ginger and acupressure may also provide relief. Consult with your healthcare provider for severe symptoms."
         ]
     },
     {
-        "tag": "belief_and_media",
+        "tag": "medication_side_effects",
         "patterns": [
-            "Do you believe everything you hear?",
-            "You can't believe what you hear on TV or radio.",
-            "You can't believe what you read in the newspapers.",
-            "Everyone tells you a different story about the same thing.",
-            "And the government will give you a fourth story."
+            "I'm experiencing side effects from my medication. What should I do?",
+            "Can you tell me about common side effects of antibiotics?",
+            "How long do side effects of medication usually last?",
+            "Are there natural remedies for medication side effects?",
+            "Should I stop taking my medication if I experience side effects?",
+            "I'm allergic to a medication. What alternatives are there?"
         ],
         "responses": [
-            "I don't believe anything I don't see with my own eyes.",
-            "You can't believe what you hear on TV or radio.",
-            "Three different people will give you three different stories.",
-            "Yes, like the government says not to worry about the swine flu.",
-            "But the swine flu just killed 20 people in Mexico."
+            "Experiencing side effects is not uncommon. Consult with your healthcare provider to discuss your symptoms and potential adjustments to your medication.",
+            "Common side effects of antibiotics may include nausea, diarrhea, or allergic reactions. Contact your healthcare provider if you experience severe side effects.",
+            "The duration of side effects varies. Consult with your healthcare provider to determine if the side effects are expected to subside or if a change in medication is necessary.",
+            "Natural remedies may help alleviate certain side effects. However, always consult with your healthcare provider before trying alternative approaches.",
+            "Do not stop taking prescribed medication without consulting your healthcare provider. They can provide guidance on managing side effects or adjusting your treatment plan.",
+            "If you're allergic to a medication, inform your healthcare provider immediately. They can recommend alternative medications that are safe for you."
         ]
-    },
-    {
-        "tag": "nose_picking",
-        "patterns": [
-            "Don't pick your nose.",
-            "What were you doing?",
-            "I think I know the difference between picking and scratching.",
-            "Okay, maybe I was picking it a little bit.",
-            "I didn't have a tissue."
-        ],
-        "responses": [
-            "I wasn't picking my nose.",
-            "I was scratching my nose.",
-            "Use a tissue next time.",
-            "Then wait until you find a tissue.",
-            "I didn't have a tissue."
-        ]
-    },
-        {
-            "tag": "family_behavior",
-            "patterns": [
-                "I saw Dad wipe his nose on his sleeve yesterday.",
-                "I bet Dad did it all the time when he was my age.",
-                "Your daddy was a good little boy.",
-                "How do you know? Were you his mommy, too?"
-            ],
-            "responses": [
-                "I will talk to your father about that.",
-                "Your daddy was a good little boy.",
-                "How do you know? Were you his mommy, too?"
-            ]
-        },
-        {
-            "tag": "marriage_worries",
-            "patterns": [
-                "I'm worried.",
-                "I'm getting married.",
-                "Marriage is a lot of responsibility.",
-                "Are you going to start a family?",
-                "We want to have a little boy and a little girl."
-            ],
-            "responses": [
-                "You should be happy, not worried.",
-                "Yes, you have to take care of your wife.",
-                "And I have to take care of our children.",
-                "That sounds wonderful, except we can't afford it!"
-            ]
-        },
-        {
-            "tag": "art_and_artists",
-            "patterns": [
-                "I don't get art.",
-                "They're in a different world.",
-                "But it was full of pencils! How could he say it was empty?",
-                "Artists see things differently.",
-                "Did you ever see anything that Picasso painted?"
-            ],
-            "responses": [
-                "Or artists.",
-                "I saw a painting of a jar that was full of pencils.",
-                "The artist said the jar was both full and empty.",
-                "Artists see things differently.",
-                "Of course! He's world-famous."
-            ]
-        },
-        {
-            "tag": "purpose_of_life",
-            "patterns": [
-                "What's the point?",
-                "Of living.",
-                "We must be here for some reason.",
-                "Maybe we're here to have fun.",
-                "Then why aren't I having fun?"
-            ],
-            "responses": [
-                "The point of what?",
-                "Who knows? You live, and then you die.",
-                "Maybe we're here to have fun.",
-                "Stop thinking about what the point is. Just be patient. Fun doesn't come along every five minutes."
-            ]
-        },
-        {
-            "tag": "beer_and_cigarettes",
-            "patterns": [
-                "Beer is a powerful drug.",
-                "So are cigarettes.",
-                "When you die and go to heaven, they will offer you beer or cigarettes.",
-                "I could pick only one or the other?",
-                "Boy, that's a tough one."
-            ],
-            "responses": [
-                "So are cigarettes.",
-                "What do you mean?",
-                "Yes, nothing's perfect, not even in heaven.",
-                "Boy, that's a tough one."
-            ]
-        },
-        {
-            "tag": "pocket_hole",
-            "patterns": [
-                "My pants have a hole in the front pocket.",
-                "You shouldn't carry pens in your pocket.",
-                "Yesterday a pen fell through my pants onto my shoe.",
-                "Who carries a sharp knife in their pocket?",
-                "Criminals, of course."
-            ],
-            "responses": [
-                "You shouldn't carry pens in your pocket.",
-                "Lucky for you it wasn't a sharp knife.",
-                "Who carries a sharp knife in their pocket?",
-                "Criminals, of course."
-            ]
-        },
-        {
-            "tag": "remembering_jokes",
-            "patterns": [
-                "I can't remember jokes.",
-                "They go in one ear and out the other.",
-                "Who makes up all these jokes?",
-                "Who knows? But there must be a hundred new ones every day."
-            ],
-            "responses": [
-                "Neither can I.",
-                "Some of it is okay, I guess.",
-                "Artists see things differently.",
-                "Did you ever see anything that Picasso painted?"
-            ]
-        },
-        {
-            "tag": "smartness",
-            "patterns": [
-                "I'm not very smart.",
-                "I don't know. I think I'm average.",
-                "Did you ever take an IQ test?",
-                "I wish I was really smart.",
-                "Don't be ridiculous. If you're going to make a wish, wish that you were really rich or famous."
-            ],
-            "responses": [
-                "I don't know anyone who likes it.",
-                "Some of it is okay, I guess.",
-                "No one makes any money at it.",
-                "Did he get rich from his poetry?",
-                "Probably not."
-            ]
-        },
-        {
-            "tag": "earth_day",
-            "patterns": [
-                "Do you know what today is?",
-                "It's more than just a date.",
-                "It's a yearly reminder to take care of our planet."
-            ],
-            "responses": [
-                "Yes, it's April 22.",
-                "Is it your birthday or anniversary?",
-                "It's all over the news."
-            ]
-        },
-        {
-            "tag": "national_flag",
-            "patterns": [
-                "I don't like our flag.",
-                "What's the matter with it?",
-                "A flag should be pretty."
-            ],
-            "responses": [
-                "What's the matter with it?",
-                "Yes, a lot of flags have stripes."
-            ]
-        },
-        {
-            "tag": "death_arrangements",
-            "patterns": [
-                "What are you going to do about your death?",
-                "I mean, are you going to get buried or cremated?",
-                "Our ashes will be shaken into the ocean."
-            ],
-            "responses": [
-                "Well, mostly I'll try to avoid it.",
-                "My wife and I will be cremated."
-            ]
-        },
-        {
-            "tag": "carpet_cleaning",
-            "patterns": [
-                "Did you wipe your feet?",
-                "Then why is there mud on the carpet?",
-                "I don't like pretty women?",
-                "You don't like pretty women?",
-                "I don't like pretty women?"
-            ],
-            "responses": [
-                "Yes, of course, I wiped my feet.",
-                "I don't know. It's not my mud.",
-                "You don't like pretty women?",
-                "Of course. But not on our flag!"
-            ]
-        },
-        {
-            "tag": "mother's_day",
-            "patterns": [
-                "What are you getting for your mom?",
-                "Sunday is Mother's Day.",
-                "I thought it was next Sunday.",
-                "I'll get her a nice card.",
-                "Is that it?"
-            ],
-            "responses": [
-                "Sunday is Mother's Day.",
-                "Of course. It's all over the news."
-            ]
-        },
-        {
-            "tag": "poetry",
-            "patterns": [
-                "Poetry sucks.",
-                "I don't know anyone who likes it.",
-                "Some of it is okay, I guess.",
-                "Did you ever take an IQ test?",
-                "I wish I was really smart."
-            ],
-            "responses": [
-                "I don't know anyone who likes it.",
-                "Some of it is okay, I guess.",
-                "No one makes any money at it.",
-                "Did he get rich from his poetry?",
-                "Probably not."
-            ]
-        },
-        {
-            "tag": "news",
-            "patterns": [
-                "I missed the TV news last night. What was on?",
-                "What's the weather going to be like this weekend?",
-                "What was the lead story on the news?",
-                "A bull chased a man in a supermarket."
-            ],
-            "responses": [
-                "Nothing that would pass as news.",
-                "I don't know. Whenever the weather comes on, I switch channels.",
-                "Some actress was in court for driving without a license.",
-                "Some actor married a woman young enough to be his daughter."
-            ]
-        }
+    }
     ]
 
 }
