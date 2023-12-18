@@ -19,32 +19,32 @@ Flask==1.1.2
 
 
 You can install the required packages using the following command:
-pip install -r requirements.txt
+       pip install -r requirements.txt
 
 # Usage
-Clone the repository:
-git clone https://github.com/Shruthi018/HAPPYBOT.git
-cd HAPPYBOT
+   Clone the repository:
+          git clone https://github.com/Shruthi018/HAPPYBOT.git
+          cd HAPPYBOT
 
-Run the chatbot in the console:
-python chat.py
-You can start interacting with the chatbot by typing messages. Type "quit" to exit the chat.
-
-Alternatively, deploy the chatbot as a Flask web application:
-python app.py
-Open your web browser and navigate to http://localhost:5000 to use the chatbot through a simple web interface.
+   Run the chatbot in the console:
+         python chat.py
+   You can start interacting with the chatbot by typing messages. Type "quit" to exit the chat.
+   Alternatively, deploy the chatbot as a Flask web application:
+       python app.py
+   Open your web browser and navigate to http://localhost:5000 to use the chatbot through a simple web interface.
 
 # Files and Directories
-chatbot.py: Script for running the chatbot in the console.
-app.py: Flask web application for using the chatbot through a web interface.
-intents.json: Dataset containing intents and responses.
-chat_model/: Directory containing the saved trained model.
-tokenizer.pickle: Pickle file for the fitted tokenizer.
-label_encoder.pickle: Pickle file for the fitted label encoder.
-requirements.txt: List of required Python packages.
+   chatbot.py: Script for running the chatbot in the console.
+   app.py: Flask web application for using the chatbot through a web interface.
+   intents.json: Dataset containing intents and responses.
+   chat_model/: Directory containing the saved trained model.
+   tokenizer.pickle: Pickle file for the fitted tokenizer.
+   label_encoder.pickle: Pickle file for the fitted label encoder.
+   requirements.txt: List of required Python packages.
 
 # Training the Model
-If you want to retrain the model or make changes to the training process:
-Modify the intents.json file with your own intents and responses.
-Run the training script:
-python train.py
+    If you want to retrain the model or make changes to the training process:
+        Modify the intents.json file with your own intents and responses.
+        Run the training script:
+             python train.py
+
